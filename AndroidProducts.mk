@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_messi.mk
+    $(LOCAL_DIR)/lmodroid_messi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_messi-user \
-    lineage_messi-userdebug \
-    lineage_messi-eng
+    lmodroid_messi-user \
+    lmodroid_messi-userdebug \
+    lmodroid_messi-eng

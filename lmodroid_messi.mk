@@ -1,6 +1,6 @@
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device
@@ -12,7 +12,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := messi
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_MODEL := moto z3
-PRODUCT_NAME := lineage_messi
+PRODUCT_NAME := lmodroid_messi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=messi \

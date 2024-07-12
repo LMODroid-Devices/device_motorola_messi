@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_messi.mk
+    $(LOCAL_DIR)/lmodroid_messi.mk
